@@ -2,7 +2,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <Description>Common library of tools</Description>
+    <Authors>Paramesh Gunasekaran</Authors>
+    <Company>paramg.com</Company>
+    <PackageTags>library,dotnetcore</PackageTags>
+    <RepositoryType>github</RepositoryType>
+    <RepositoryUrl>https://github.com/parameshg/param</RepositoryUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>paramg.com | Paramesh Gunasekaran | 2018 - 2019</Copyright>
+    <PackageIconUrl>http://www.paramg.com/favicon.ico</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/parameshg/param</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />

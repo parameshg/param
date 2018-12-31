@@ -4,7 +4,7 @@ namespace Param.Security.Cryptography
 {
     public abstract class Hasher : IHasher
     {
-        public abstract byte[] Execute(byte[] data);
+        public abstract string Execute(byte[] data);
 
         public abstract string Execute(string data);
 

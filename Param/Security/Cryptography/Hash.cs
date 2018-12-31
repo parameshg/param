@@ -6,18 +6,18 @@
 
         public Hash(HashType type)
         {
-            if (type == HashType.MD5)
+            if (type.Equals(HashType.MD5))
             {
                 _hasher = new MD5Hasher();
             }
 
-            if (type == HashType.SHA256)
+            if (type.Equals(HashType.SHA256))
             {
                 _hasher = new SHA256Hasher();
             }
         }
 
-        public byte[] Execute(byte[] data)
+        public string Execute(byte[] data)
         {
             return _hasher.Execute(data);
         }

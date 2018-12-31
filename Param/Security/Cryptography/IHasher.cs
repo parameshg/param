@@ -2,7 +2,7 @@
 {
     public interface IHasher
     {
-        byte[] Execute(byte[] data);
+        string Execute(byte[] data);
 
         string Execute(string data);
     }
